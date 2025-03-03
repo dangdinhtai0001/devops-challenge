@@ -15,8 +15,6 @@ This design adheres to AWS best practices, balancing performance, scalability, a
 
 Below is the revised version of your content, optimized for clarity, professionalism, and conciseness while maintaining the academic tone suitable for a senior-level assessment. The focus is streamlined to emphasize the **Architecture Diagram** and its components.
 
----
-
 ## Architecture Diagram
 
 ```mermaid
@@ -64,8 +62,6 @@ graph TB
 ### Key Enhancements to the Diagram
 1. **Multi-AZ Deployment**: Added annotations to indicate that critical components such as **EKS**, **RDS**, and **Redis** are deployed across multiple Availability Zones (AZs) to ensure high availability and fault tolerance.
 2. **Edge Caching**: Integrated **CloudFront** into the architecture to demonstrate the distribution of static content from **S3**, reducing latency for end users through edge caching.
-
----
 
 ### Component Descriptions
 
@@ -275,8 +271,6 @@ Ensuring high availability is critical for a trading system, where downtime or d
 
 Here is the revised version of your content, tailored to a senior-level test or academic report with a concise, professional tone. The focus remains on the `Architecture Diagram`, and the language has been refined for clarity and precision.
 
----
-
 ## Cost Optimization
 
 Building a cost-effective system is essential for ensuring the financial sustainability of the trading platform while maintaining high performance and scalability. Below is a structured approach to optimizing costs across all architectural components.
@@ -371,13 +365,9 @@ hile designing the trading system, several assumptions were made to simplify the
 
 Here’s a refined and professional version of your content, tailored for a senior-level assessment. The language is concise, precise, and focused on clarity while maintaining an academic tone suitable for evaluations or reports.
 
----
-
 ## Assumptions and Trade-offs
 
 The design of the trading system incorporates several assumptions to simplify architectural decisions and focuses on balancing performance, scalability, cost-efficiency, and operational complexity. Below is a structured overview of the key assumptions and trade-offs.
-
----
 
 ### **Assumptions**
 
@@ -397,8 +387,6 @@ The design of the trading system incorporates several assumptions to simplify ar
 
 5. **Third-Party Integrations**:
    - Assumes minimal reliance on third-party services, favoring AWS-native solutions for simplicity and cost-effectiveness.
-
----
 
 ### **Trade-offs**
 
@@ -433,8 +421,6 @@ The design of the trading system incorporates several assumptions to simplify ar
 8. **Monitoring (CloudWatch vs. Third-Party Tools)**:
    - **Trade-off**: CloudWatch provides integrated monitoring but lacks advanced features offered by third-party tools like Datadog or New Relic.
    - **Reasoning**: CloudWatch was chosen for its seamless integration with AWS services and lower cost.
-
----
 
 ### **Summary of Assumptions and Trade-offs**
 
